@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main()
+
+{
+    long long int i,t,n;
+
+    scanf("%lld",&t);
+
+    for(i=1;i<=t;i++)
+
+    {
+        scanf("%lld",&n);
+
+        if(n==1)
+            printf("Case %lld: 1\n",i);
+
+        else if(n==2)
+            printf("Case %lld: 2\n",i);
+
+         else if(n==3)
+            printf("Case %lld: 6\n",i);
+
+         else if(n==4)
+            printf("Case %lld: 6\n",i);
+
+         else if(n==5)
+            printf("Case %lld: 3\n",i);
+
+        else printf("Case %lld: 9\n",i);
+    }
+
+    return 0;
+}
